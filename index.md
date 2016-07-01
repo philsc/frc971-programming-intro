@@ -3,18 +3,15 @@ layout: default
 title: FRC 971 Programming Intro
 ---
 
-FRC 971 Programming Intro
+Overview
 ================================================================================
 This document is divided into several sections. Please navigate to the ones you
 are interested in.
 
-It is important to note that the focus of this intro is on C++ as that is what
-971 uses to program their robots.
-
 Logistics
---------------------------------------------------------------------------------
+================================================================================
 
-### SVN Account
+## SVN Account
 Signup page: <http://boardsailor.com/passwordFRC.html>
 
 Michael Schuh will need to manually create an account for you so please be
@@ -35,7 +32,7 @@ have a [desktop client](https://desktop.github.com/) if you don't want to jump
 into using the command line right away.
 
 Game-specific
---------------------------------------------------------------------------------
+================================================================================
 
 - [Game animation for 2016](https://www.youtube.com/watch?v=VqOKzoHJDjA)
 - [971's 2016 reveal video](https://www.youtube.com/watch?v=CMX4ynSQsyI)
@@ -43,7 +40,7 @@ Game-specific
   manual](http://www.firstinspires.org/resource-library/frc/competition-manual-qa-system)
 
 Getting Started
---------------------------------------------------------------------------------
+================================================================================
 
 ### IDE
 The easiest way to get started is to install an Integrated Development
@@ -62,7 +59,7 @@ For some introduction on what you can do with git and what it can do for you,
 please watch the [introductory videos](https://git-scm.com/videos).
 
 Tasks
---------------------------------------------------------------------------------
+================================================================================
 You should be able to complete most of these tasks without programming a
 Graphical User Interface (a.k.a a GUI). These can be coded up as "console
 applications". The idea is to just print words on the screen.
@@ -77,7 +74,7 @@ Buzz" instead.
 
 Here's a piece of code to get you guys started:
 
-```C++
+{% highlight C++ %}
 #include <iostream>
 
 int main(void) {
@@ -87,7 +84,7 @@ int main(void) {
   }
   return 0;
 }
-```
+{% endhighlight %}
 
 ### Number Guessing Game
 The challenge is to get the computer to generate a random number between 1 and
@@ -98,7 +95,7 @@ was incorrect. Give the player 6 guesses in total.
 
 Here's a piece of code to get you started:
 
-```C++
+{% highlight C++ %}
 #include <iostream>
 #include <random>
 
@@ -114,7 +111,7 @@ int main(void) {
 
   return 0;
 }
-```
+{% endhighlight %}
 
 This is a great opportunity to learn about how to use Google. Figure out how
 you gather user input using C++.
