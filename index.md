@@ -75,15 +75,7 @@ Buzz" instead.
 Here's a piece of code to get you guys started:
 
 {% highlight C++ %}
-#include <iostream>
-
-int main(void) {
-  // Print the numbers 1 through 100 on the screen.
-  for (int i = 0; i < 100; ++i) {
-    ::std::cout << i + 1 << ::std::endl;
-  }
-  return 0;
-}
+{% include code/fizz_buzz.cc %}
 {% endhighlight %}
 
 ### Number Guessing Game
@@ -96,21 +88,7 @@ was incorrect. Give the player 6 guesses in total.
 Here's a piece of code to get you started:
 
 {% highlight C++ %}
-#include <iostream>
-#include <random>
-
-int main(void) {
-  // Generate a random number between 1 and 100.
-  ::std::default_random_engine generator;
-  ::std::uniform_int_distribution<int> distribution(1,100);
-
-  int random_number = distribution(generator);
-
-  ::std::cout << "The number I am thinking of is " << random_number
-              << ::std::endl;
-
-  return 0;
-}
+{% include code/number_guessing.cc %}
 {% endhighlight %}
 
 This is a great opportunity to learn about how to use Google. Figure out how
