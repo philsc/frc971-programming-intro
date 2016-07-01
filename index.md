@@ -13,7 +13,7 @@ Logistics
 --------------------------------------------------------------------------------
 
 ### SVN Account
-Signup page: http://boardsailor.com/passwordFRC.html
+Signup page: <http://boardsailor.com/passwordFRC.html>
 
 Michael Schuh will need to manually create an account for you so please be
 patient after you fill out the form on that page. You'll receive an e-mail once
