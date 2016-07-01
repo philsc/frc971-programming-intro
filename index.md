@@ -31,6 +31,14 @@ started with using git. This will let you practice version control. They also
 have a [desktop client](https://desktop.github.com/) if you don't want to jump
 into using the command line right away.
 
+### Google Group
+Please apply to our [971 Programmers Google
+Group](https://groups.google.com/forum/#!forum/frcteam971programmers). There
+you can post questions and have people from 971 help you.
+
+Of course, you can post questions and such on other forums too if you prefer
+that.
+
 Game-specific
 ================================================================================
 
