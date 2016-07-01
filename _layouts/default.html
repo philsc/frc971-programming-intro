@@ -15,13 +15,15 @@
   <body>
     <div class="wrapper">
       <header>
-      {% markdown header.md %}
+      {% capture my-include %}{% include header.md %}{% endcapture %}
+      {{ my-include | markdownify }}
       </header>
       <section>
       {{ page.content }}
       </section>
       <footer>
-      {% markdown footer.md %}
+      {% capture my-include %}{% include footer.md %}{% endcapture %}
+      {{ my-include | markdownify }}
       </footer>
     </div>
     <script src="minimal/javascripts/scale.fix.js"></script>
