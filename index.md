@@ -1,4 +1,6 @@
 ---
+layout: default
+title: FRC 971 Programming Intro
 ---
 
 FRC 971 Programming Intro
