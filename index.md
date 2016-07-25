@@ -79,6 +79,11 @@ You should be able to complete most of these tasks without programming a
 Graphical User Interface (a.k.a a GUI). These can be coded up as "console
 applications". The idea is to just print words on the screen.
 
+*NOTE:* Please compile your code as
+[C++11](http://stackoverflow.com/questions/18174988/how-can-i-add-c11-support-to-codeblocks-compiler)
+(i.e.  the 2011 version of C++).  The vast majority of the examples I give will
+not compile if you use an older version of C++.
+
 ### Fizz Buzz
 A classic little puzzle meant to acquaint people with new programming
 languages. The challenge is to print out the numbers 1 through 100 on separate
