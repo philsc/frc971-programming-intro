@@ -15,7 +15,7 @@ GitHub.  You'll then receive e-mail notifications of updates to the page.
 Logistics
 ================================================================================
 
-## SVN Account
+### SVN Account
 Signup page: <http://boardsailor.com/passwordFRC.html>
 
 Michael Schuh will need to manually create an account for you so please be
@@ -112,6 +112,15 @@ then write a `fizz_buzz_test.cc` that makes sure that given the number 18518505
 the function returns "Fizz Buzz".  In the end we expect you to have 4 files: 1
 header file, one fizz-buzz implementation, one that iterates over numbers 1
 through 100, and one that tests your code.
+
+Download the [sample Code::Blocks
+project](https://github.com/philsc/frc971-programming-intro/tree/master/samples/FizzBuzz)
+if you're stuck on how to do this. You can also download a [zip
+file](https://github.com/philsc/frc971-programming-intro/archive/master.zip)
+and look at the `samples/FizzBuzz` folder.
+
+The key is to create separate Build Targets to compile the main application
+versus the test application.
 
 ### Number Guessing Game
 The challenge is to get the computer to generate a random number between 1 and
