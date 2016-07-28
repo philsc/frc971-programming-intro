@@ -174,4 +174,21 @@ ways to do this, but with a 5x5 maze, trial and error is not a bad way. If you
 go the route of trial and error, make sure you have a way to check if a maze is
 valid.
 
+
+### Blackjack
+The challenge is to create a single player blackjack game. There should be a
+dealer and a player. To start you off, we've provided a basic class outline for
+a deck of cards.
+
+{% highlight C++ %}
+{% include code/blackjack.cc %}
+{% endhighlight %}
+
+Start by filling in the class to represent a deck, then use that to store the
+state of the cards. In the outline, we've included an empty class that you
+should fill in. Once your deck and hand are functional, write a game with the
+dealer and a player, and let players hit and stay. The main function and game
+should be in a separate file.
+
+
 More details to follow...
