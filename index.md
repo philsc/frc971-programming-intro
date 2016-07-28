@@ -168,4 +168,10 @@ at one `kOpen` spot. Move the `kPlayer` cell around As the player gives you
 input. The player wins when he reaches another `kOpen` spot that you've
 designated. The player cannot move into or through `kWall` spots.
 
+#### Bonus
+Generate a solvable maze in the style of the Maze Walking code. There are many
+ways to do this, but with a 5x5 maze, trial and error is not a bad way. If you
+go the route of trial and error, make sure you have a way to check if a maze is
+valid.
+
 More details to follow...
