@@ -19,7 +19,7 @@
       {{ my-include | markdownify }}
       </header>
       <section>
-      {% capture my-include %}{{page.content}}{% endcapture %}
+      {% capture my-include %}{{ content }}{% endcapture %}
       {{ my-include | markdownify }}
       </section>
       <footer>
